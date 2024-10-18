@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Web Programming</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+        }
+
+        .header {
+            position: relative;
+            text-align: center;
+            padding: 20px;
+            background-color: antiquewhite;
+            border-radius: 20px;
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid rgb(255, 255, 255);
+            position: absolute;
+            top: 185px;
+            left: 50%;
+            transform: translateX(-50%);
+            object-fit: cover;
+        }
+
+        .nav {
+            background-color: #f0f2f5;
+            padding: 10px 0;
+            margin-top: 140px;
+            border-radius: 20px;
+        }
+
+        .nav ul {
+            list-style: circle;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .main-content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .tabel {
+            background-color: #f9f9f9;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 20px;
+            width: 150px;
+            text-align: center;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-size: large;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="assets/IMG_9139.jpg" class="profile-photo" alt="Profile Photo">
+            <h1>Biodata Singkat</h1>
+            <p style="font-size: larger;">Hi! Perkenalan singkat aja ya, nama saya Nurul Huda<br>Dan ini adalah tampilan sederhana website saya yang baru belajar Pemrograman Web</p>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="https://www.instagram.com/hudzz.z/">Instagram</a></li>
+                <li><a href="https://www.youtube.com/@itsmehudd">Youtube</a></li>
+                <li><a href="https://www.linkedin.com/in/huddz/">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <h2 style="text-align: center; margin-top: 0; width: 100%;">Hobi saya</h2>
+            <div class="tabel"><p>Bermain Game (Tentu Saja)</p></div>
+            <div class="tabel"><p>Mendengarkan Musik</p></div>
+            <div class="tabel"><p>Bermain Game lagi</p></div>
+            <div class="tabel"><p>Gatau mau diisi apa, udah ga ada hobi lagi</p></div>
+        </main>
+    </div>
+</body>
+</html>
